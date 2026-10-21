@@ -16,9 +16,11 @@ let equipment = [
   { name: 'Cable Tester', category: 'tools', brand: 'TestPro', year: 2019, quantity: 6 },
   { name: 'Studio Headphones', category: 'audio', brand: 'SoundCraft', year: 2023, quantity: 8 },
 
-    // Two personalized portable items for my student ID 301559258
-  { name: 'Portable Bluetooth Speaker', category: 'audio', brand: 'SoundWave', year: 2024, quantity: 3 },
-  { name: 'Portable SSD', category: 'storage', brand: 'DataDrive', year: 2023, quantity: 6 }
+  // Personalized item 1
+  { name: 'Wireless Keyboard', category: 'computer accessories', brand: 'KeyTech', year: 2025, quantity: 10 },
+
+  // Personalized item 2
+  { name: 'Portable SSD', category: 'storage', brand: 'DataFast', year: 2024, quantity: 7 }
 ];
 
 app.get('/api/equipment', (req, res) => {
