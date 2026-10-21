@@ -14,7 +14,11 @@ let equipment = [
   { name: 'LED Panel', category: 'lighting', brand: 'BrightWorks', year: 2022, quantity: 4 },
   { name: 'Network Switch', category: 'networking', brand: 'NetCore', year: 2020, quantity: 3 },
   { name: 'Cable Tester', category: 'tools', brand: 'TestPro', year: 2019, quantity: 6 },
-  { name: 'Studio Headphones', category: 'audio', brand: 'SoundCraft', year: 2023, quantity: 8 }
+  { name: 'Studio Headphones', category: 'audio', brand: 'SoundCraft', year: 2023, quantity: 8 },
+
+    // Two personalized portable items for my student ID 301559258
+  { name: 'Portable Bluetooth Speaker', category: 'audio', brand: 'SoundWave', year: 2024, quantity: 3 },
+  { name: 'Portable SSD', category: 'storage', brand: 'DataDrive', year: 2023, quantity: 6 }
 ];
 
 app.get('/api/equipment', (req, res) => {
